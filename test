@@ -1,0 +1,60 @@
+<div class="form-group ">
+									<div class="cell">
+										<center><h4>Starters</h4></center>
+										<label>Select Length</label>
+									</div>
+								</div>
+								<div class="starters-hide starter_element" id="remove-star0">
+									<div class="form-group ">
+										<!-- <div class = 'cell'>
+											<center><h4></h4></center>
+											<label>Select Length</label>
+										</div> -->
+										<div class="cell">
+											<select id="micro_starters" class="no_need" name="starters">							
+												<option value="false">Select Starters Length</option>
+																																					<option value="5">5ft</option>
+																																						<option value="10">10ft</option>
+																																						<option value="15">15ft</option>
+																																				</select>
+																					</div>
+									</div>
+									<div class="form-group">
+										<div class="cell">
+											<label>How many Starters?</label>
+																					</div>
+										<div class="cell">
+											<input class="form-control star_foll no_need" name="totel_starters" id="totel_starters" type="text">
+										</div>
+																			</div>
+								</div>
+								<div class="add_star_new"><div id="remove-star1" class="starter_element"><button type="button" class="btn btn-danger remove_star" tid="remove-star1"><i class="fa fa-times" aria-hidden="true"></i></button><div class="form-group"><div class="cell">Select Length</div></div>
+									<div class="form-group ">
+										<!-- <div class = 'cell'>
+											<center><h4></h4></center>
+											<label>Select Length</label>
+										</div> -->
+										<div class="cell">
+											<select id="micro_starters" class="no_need" name="starters">							
+												<option value="false">Select Starters Length</option>
+																																					<option value="5">5ft</option>
+																																						<option value="10">10ft</option>
+																																						<option value="15">15ft</option>
+																																				</select>
+																					</div>
+									</div>
+									<div class="form-group">
+										<div class="cell">
+											<label>How many Starters?</label>
+																					</div>
+										<div class="cell">
+											<input class="form-control star_foll no_need" name="totel_starters" id="totel_starters" type="text">
+										</div>
+																			</div>
+								</div></div>
+								<div class="cell starters-hide ">
+									<!-- <input type='button' name='add_star' value='ADD STARTER' class='add_star btn btn-info'>  -->
+									<button type="button" class="btn btn-info add_star">
+										<i class="fa fa-plus" aria-hidden="true"></i>
+									</button>
+								</div>
